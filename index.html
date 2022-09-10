@@ -12,10 +12,21 @@
   <h1>Sample Progressive Web App</h1>
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker
-        .register('/sw.js', {
+      try {
+        const registration = await navigator.serviceWorker.register(
+          '/sw.js', {
           scope: '/'
         });
+        if (registration.installing) {
+          console.log('installing service worker');
+        } else if (registration.waiting) {
+          console.log('service worker installed');
+        } else if (registration.active) {
+          console.log('service worker active');
+        }
+      } catch (error) {
+        console.error(`service worker registration failed: ${error}`);
+      }
     }
   </script>
 </body>
