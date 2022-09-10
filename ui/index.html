@@ -10,6 +10,11 @@
 
 <body>
   <h1>Sample Progressive Web App</h1>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js', { scope: '/' });
+    }
+  </script>
 </body>
 
 </html>
