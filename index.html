@@ -17,7 +17,7 @@
           const registration = await navigator.serviceWorker.register(
             '/sw.js',
             {
-              scope: '/',
+              scope: '/sample-progressive-web-app/',
             }
           );
           if (registration.installing) {
