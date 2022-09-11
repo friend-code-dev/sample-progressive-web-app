@@ -1,0 +1,11 @@
+{
+  "main.js": "/sample-progressive-web-app/static/js/main.64a8eaab.chunk.js",
+  "main.js.map": "/sample-progressive-web-app/static/js/main.64a8eaab.chunk.js.map",
+  "static/js/1.d9cdb5e3.chunk.js": "/sample-progressive-web-app/static/js/1.d9cdb5e3.chunk.js",
+  "static/js/1.d9cdb5e3.chunk.js.map": "/sample-progressive-web-app/static/js/1.d9cdb5e3.chunk.js.map",
+  "runtime~main.js": "/sample-progressive-web-app/static/js/runtime~main.bd8d6acd.js",
+  "runtime~main.js.map": "/sample-progressive-web-app/static/js/runtime~main.bd8d6acd.js.map",
+  "index.html": "/sample-progressive-web-app/index.html",
+  "precache-manifest.b8a3449d7316f05c561c9ce8bd60af48.js": "/sample-progressive-web-app/precache-manifest.b8a3449d7316f05c561c9ce8bd60af48.js",
+  "service-worker.js": "/sample-progressive-web-app/service-worker.js"
+}
