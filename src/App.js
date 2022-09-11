@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <Link to="/about">About</Link>
-      <h1>Sample Progressive Web App</h1>
+      <h1>Home</h1>
     </div>
   );
 }
