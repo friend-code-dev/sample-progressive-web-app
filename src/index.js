@@ -4,8 +4,7 @@ import App from "./App";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import About from "./About";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <HashRouter>
       <Routes>
@@ -14,7 +13,5 @@ root.render(
       </Routes>
     </HashRouter>
     <App />
-  </React.StrictMode>,
-
-  document.getElementById("root")
+  </React.StrictMode>
 );
