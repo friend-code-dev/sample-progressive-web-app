@@ -15,10 +15,7 @@
       if ('serviceWorker' in navigator) {
         try {
           const registration = await navigator.serviceWorker.register(
-            '/sw.js',
-            {
-              scope: '/sample-progressive-web-app/',
-            }
+            '/sw.js'
           );
           if (registration.installing) {
             console.log('installing service worker');
