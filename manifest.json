@@ -3,7 +3,7 @@
   "name": "Sample Progressive Web App",
   "short_name": "Sample PWA",
   "description": "A sample PWA for learning purposes",
-  "start_url": "/sample-progressive-web-app/",
+  "start_url": "https://friend-code-dev.github.io/sample-progressive-web-app/",
   "background_color": "#2f3d58",
   "theme_color": "#2f3d58",
   "orientation": "any",
