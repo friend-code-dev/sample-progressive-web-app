@@ -1,0 +1,24 @@
+{
+  "name": "sample-progressive-web-app",
+  "version": "1.0.0",
+  "description": "a sample Progressive Web App (PWA) for learning purposes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/friend-code-dev/sample-progressive-web-app.git"
+  },
+  "keywords": [
+    "progressive",
+    "web",
+    "app"
+  ],
+  "author": "friend.code",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/friend-code-dev/sample-progressive-web-app/issues"
+  },
+  "homepage": "https://github.com/friend-code-dev/sample-progressive-web-app#readme"
+}
