@@ -1,5 +1,6 @@
 # sample-progressive-web-app
 https://docs.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/how-to/
+https://create-react-app.dev/docs/making-a-progressive-web-app/
 
 # Getting Started with Create React App
 
