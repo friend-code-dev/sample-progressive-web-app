@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import About from "./About";
+import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -14,3 +15,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     </HashRouter>
   </React.StrictMode>
 );
+
+serviceWorkerRegistration.register();
